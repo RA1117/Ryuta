@@ -10,7 +10,7 @@
     </head>
     <body class="antialisased">
         <h1>Blog Name</h1>
-        <form action='posts' method='POST'>
+        <form action='/posts' method='POST'>
             @csrf
             <div class='title'>
                 <h2>Title</h2>
